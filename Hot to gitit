@@ -1,0 +1,18 @@
+Switch to Master Branch: git checkout master 
+To check the status of branch: git status
+To switch to a new branch: git checkout -b <branchname-give a name>
+To switch to MASTER branch: git checkout master
+To get list of files in that directory: ll
+To Update the master branch to latest: git pull
+To open a file history: gitk <filename>
+To open a file: start <filename>
+To add file change in branch: git add <filename>
+To commit the changes: git commit
+To push branch/local changes online: git push origin <branchname>
+To get logs on current commits: git log
+To check who has changed what in a file: git blame <filename>
+To delete a branch: git branch -d <branchname>
+To get a list of all branches: git branch
+To check the files updated in a branch: git diff --name-only master
+To revert last commit: git log --> git revert <commit#>
+To sync current branch with master: git checkout master --> git pull --> git checkout <localbranchname> --> git merge master
