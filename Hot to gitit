@@ -16,3 +16,4 @@ To get a list of all branches: git branch
 To check the files updated in a branch: git diff --name-only master
 To revert last commit: git log --> git revert <commit#>
 To sync current branch with master: git checkout master --> git pull --> git checkout <localbranchname> --> git merge master
+To resolve a merge conflict: git pull <localbranchname> --> git pull origin master
